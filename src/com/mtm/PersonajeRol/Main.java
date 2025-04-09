@@ -12,7 +12,7 @@ public class Main {
         System.out.print("Introduzca los apellidos: ");
         String apellidos = sc.nextLine();
 
-        System.out.print("Introduzca su raza (Humano, Elfo, Orco): ");
+        System.out.print("Introduzca su raza (Humano, Elfo, Orco, Semielfo, Enano): ");
         String raza = sc.nextLine();
 
         Heroe heroe = new Heroe(nombre, apellidos, raza);
